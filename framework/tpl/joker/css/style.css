@@ -1,0 +1,75 @@
+				/* 
+					Document   : main
+					Created on : Jan 21, 2012, 11:16:48 PM
+					Author     : Admin
+					Description:
+						Purpose of the stylesheet follows.
+				*/
+
+				/* 
+				   TODO customize this sample style
+				   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+				*/
+
+				body
+				{
+				   font-family:'Verdana';
+                                   font-size:10px;
+                                   background:#333 url('framework/tpl/joker/css/bg.png') repeat;
+				   
+				   margin: 0px;
+				  padding: 0px;
+				}
+				.header
+				{
+					background-color:#222222;
+					color:#0099CC;
+					height:50px;
+					width:auto;
+                                        font-size:20px;
+                                        padding:5px;
+				}
+				
+					.header a
+					{
+					font-size:10px;
+					color:#FFF;
+					text-decoration:none;
+                                        padding:10px;
+		
+					}
+					.links
+					{
+					float:right;
+					 padding:10px;
+					}
+					.main{
+						width:inherit;
+						background-color:#FFF;
+						border-radius:0 0 5px 5px;
+						border:1px solid #aeaeae;
+						width:650px;
+						margin-left:auto;
+						margin-right:auto;
+                                                height:100%;
+					padding:10px;
+						
+					}
+					.sidebar
+                                        {
+                                            background-color:#222222;
+                                         border-radius:0 0 5px 5px;
+                                            border:1px solid #333;
+                                            color:#444;
+                                   	padding:10px;
+                                        font-size:15px;
+                                        width:200px;
+                                            float:left;
+                                            height:30%;
+                                        }
+                                        .widget
+                                        {
+                                            width:100%;
+                                            padding:5px;
+                                            color:#6666ff;
+                                        }

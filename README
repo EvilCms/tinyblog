@@ -1,0 +1,30 @@
+Readme
+Steps:
+1. Upload the sql file located inside /install to your mysql host.
+2. Edit your config file details.
+3. ???
+4. PROFIT
+
+Documentation:
+*Stuff is bareboned at the moment, more to come soon.
+/**TEMPLATES**/
+Tools you can use in templates:
+%title%,%desc%,%blog-% (- indicates extra param)
+You can add your own in @ global.php
+$template->SetParam('<param-name>', <data to be shown>);
+
+When writing your templates, you must follow these rules:
+<link rel="stylesheet" type="text/css" href="framework/tpl/<name of theme>/css/style.css"/>
+This is a very primitive system, updating soon.
+Templates do not need to have any opening <html> tags
+If you have about.php in your theme, create an about.php file in your root.
+Code:
+<?php
+
+require_once('global.php');
+$template->Write("about");
+?>
+
+/**PLUGINS**/
+When writing a plugin, please conform to the iPlugins interface. Plugins need to be in the form of classes. (Will be changed)
+This version is not for live use, it is a developers version.
